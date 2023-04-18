@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+.content-app {
+  display: flex;
+  font-size: 2rem;
+  background-color: #333;
+  color: #fff;
+  min-height: 400px;
+  min-width: 600px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+
+}
+
+.content-app input[type="text"] {
+  margin-top: 1rem;
+  width: 20rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.content-app input[type="text"]:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
