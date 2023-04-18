@@ -2,7 +2,7 @@
 Este repositório contém um exemplo simples de compartilhamento de estado em microfrontends, utilizando as tecnologias Vite e Module Federation e React.
 
 ## Visão geral
-O objetivo deste projeto é demonstrar como é possível compartilhar o estado entre microfrontends de forma desacoplada, utilizando a técnica de Module Federation. Module Federation é um recurso disponível no Webpack 5 que permite que módulos sejam compartilhados entre diferentes aplicações em tempo de execução.
+O objetivo deste projeto é demonstrar como é possível compartilhar o estado entre microfrontends de forma desacoplada, utilizando a técnica de Module Federation. Module Federation é um recurso disponível no Webpack  que permite que módulos sejam compartilhados entre diferentes aplicações em tempo de execução.
 
 
 O projeto contém quatro microfrontends sendo eles:
